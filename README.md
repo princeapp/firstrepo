@@ -1,2 +1,2 @@
 # firstrepo
-statrtup
+hello this is a updated file
