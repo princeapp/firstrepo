@@ -11,6 +11,7 @@
             "email": "hello@codecov.io"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.0.0"
     },
