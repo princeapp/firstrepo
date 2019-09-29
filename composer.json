@@ -1,13 +1,12 @@
 {
     "type": "project",
-    "package": {
-        "name": "firstrepo",
-        "source": {
+    "name": "firstrepo",
+    "source": {
             "url": "https://github.com/princeapp/firstrepo.git",
             "type": "git",
             "reference": "master"
         }
-    }
+    
 },
 "require" : {
   "php": "^7.1.3",
