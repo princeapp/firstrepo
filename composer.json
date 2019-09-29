@@ -1,13 +1,25 @@
-{
+
+   {
+     "name": "firstrepo",
     "type": "project",
-    "name": "firstrepo",
-    "source": {
-            "url": "https://github.com/princeapp/firstrepo.git",
-            "type": "git",
-            "reference": "master"
+    "homepage": "https://github.com/princeapp/firstrepo.git",
+    "description": "demo repo",
+    "keywords": ["code coverage", "codecov", "coverage reports"],
+    "authors": [
+        {
+            "name": "codecov.io",
+            "email": "hello@codecov.io"
         }
-    
-},
-"require" : {
-  "php": "^7.1.3",
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-0": { 
+            "Example": "src/"
+        }
+    }
 }
