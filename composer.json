@@ -1,4 +1,3 @@
-"repositories": [
 {
     "type": "project",
     "package": {
@@ -9,7 +8,7 @@
             "reference": "master"
         }
     }
-}],
+},
 "require" : {
   "php": "^7.1.3",
 }
