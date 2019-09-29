@@ -2,15 +2,14 @@
 {
     "type": "project",
     "package": {
-        "name": "example-package-name", //give package name to anything, must be unique
-        "version": "1.0",
+        "name": "firstrepo",
         "source": {
-            "url": "https://github.com/princeapp/firstrepo.git", //git url
+            "url": "https://github.com/princeapp/firstrepo.git",
             "type": "git",
-            "reference": "master" //git branch-name
+            "reference": "master"
         }
     }
 }],
 "require" : {
-  "example-package-name": "1.0"
+  "php": "^7.1.3",
 }
