@@ -1,6 +1,6 @@
 "repositories": [
 {
-    "type": "package",
+    "type": "project",
     "package": {
         "name": "example-package-name", //give package name to anything, must be unique
         "version": "1.0",
